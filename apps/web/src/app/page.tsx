@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/config";
 import { companyFacts } from "@/lib/knowledge/company";
 
 export const metadata: Metadata = {
-  title: "Advogado para CACs — CRAF e Processos na Polícia Federal",
+  title: "Advocac",
   description:
     "Assessoria jurídica e documental para CACs — CRAF, registros e processos na Polícia Federal. De atirador para atirador.",
   alternates: { canonical: "/" }
