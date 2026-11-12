@@ -164,7 +164,7 @@ let handoffOk = false;
     r.headers.get("x-kb-origin") === "local" || r.headers.get("x-kb-origin") === "supabase",
     `origin=${r.headers.get("x-kb-origin")}`
   );
-  check("chat devolve contexto com sessionId uuid", /^[0-9a-f-]{36}$/i.test(r.json?.context?.sessionId || ""));
+  check("chat devolve contexto com sessionId assinado (uuid.exp.sig)", /^[0-9a-f-]{36}\.\d+\.[A-Za-z0-9_-]+$/i.test(r.json?.context?.sessionId || ""));
 }
 
 // 11) chat: inválido (fase fora do enum)
