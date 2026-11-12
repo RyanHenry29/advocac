@@ -1,0 +1,5 @@
+node_modules
+.next
+.turbo
+tests
+_r4.log

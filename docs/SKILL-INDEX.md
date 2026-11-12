@@ -1,0 +1,282 @@
+﻿# INDICE DE SKILLS — referencia rapida
+
+- **skill-01-prompt-identidade-projeto** — Prompt de Identidade do Projeto - Definir o contexto completo do projeto logo no início de toda conversa, garantindo que o assistant entenda stack, padrões, tom e restrições antes de qualquer ação.
+- **skill-02-contexto-minimo-viavel** — Contexto Mínimo Viável - Reduzir o consumo de tokens sem perder qualidade de resposta, enviando apenas a informação essencial.
+- **skill-03-analise-linha-a-linha** — Análise Linha a Linha - Fazer o assistant revisar cada linha de código sem pular nada, identificando problemas com precisão.
+- **skill-04-anti-padrao-ia** — "Anti-padrão Genérico de IA - Evitar visual que parece gerado por IA: hero com gradiente, cards com ícones genéricos, seções previsíveis (Features / Pricing / FAQ)."
+- **skill-05-revisao-seguranca-por-camada** — "Revisão de Segurança por Camada - Auditar código por camada de segurança: input, autenticação, autorização, banco de dados, output, logging."
+- **skill-06-nomeacao-semantica-variaveis** — Nomeação Semântica de Variáveis - Eliminar nomes genéricos e garantir que toda variável revele sua intenção.
+- **skill-07-modo-somente-erros** — Modo Somente Erros - Pedir ao assistant que responda apenas os problemas, sem reescrever código correto. Economiza 60-80% dos tokens em revisões.
+- **skill-08-injecao-sql-nosql** — Injeção de SQL/NoSQL - Detectar e corrigir vulnerabilidades de injeção em queries SQL e NoSQL.
+- **skill-09-componente-contrato-explicito** — Componente com Contrato Explícito - Todo componente deve ter props tipadas, responsabilidade única e nome semântico antes de ser escrito.
+- **skill-100-filas-e-processamento-assincrono** — Filas e Processamento Assíncrono - Processar tarefas pesadas em background sem travar a resposta.
+- **skill-101-serverless-functions** — Serverless Functions - Rodar código backend sem gerenciar servidor.
+- **skill-102-cache-distribuido** — Cache Distribuído - Cache compartilhado entre instâncias usando Redis ou CDN.
+- **skill-103-conexao-segura-com-banco** — Conexão Segura com Banco - Conectar ao banco de dados de forma segura sem expor credenciais.
+- **skill-104-seed-de-dados-de-teste** — Seed de Dados de Teste - Popular banco com dados de teste consistentes para desenvolvimento.
+- **skill-105-health-checks-e-readiness** — Health Checks e Readiness - Endpoint de health check para monitoramento e orquestração.
+- **skill-106-responsividade-avancada** — "Responsividade Avançada - Layout que funciona em qualquer tela: 320px a 2560px."
+- **skill-107-micro-interacoes-e-animacoes** — Micro-Interações e Animações - Animações pequenas que melhoram a experiência sem atrapalhar.
+- **skill-108-estados-de-rede-online-offline** — Estados de Rede (Online/Offline) - Aplicação funciona mesmo sem conexão com internet.
+- **skill-109-pwa-progressive-web-app** — PWA (Progressive Web App) - Transformar o site em um app instalável com funcionalidades offline.
+- **skill-10-hierarquia-de-erros** — Hierarquia de Erros - Classificar erros por severidade antes de corrigir, garantindo que o crítico seja resolvido primeiro.
+- **skill-110-seo-fundamentals** — SEO Fundamentals - Aparecer nos resultados de busca do Google.
+- **skill-111-open-graph-e-meta-tags** — Open Graph e Meta Tags - Controlar como o link aparece quando compartilhado em redes sociais.
+- **skill-112-font-loading-strategy** — Font Loading Strategy - Carregar fontes sem bloquear renderização ou causar layout shift.
+- **skill-113-image-optimization** — Image Optimization - Imagens que carregam rápido sem perder qualidade visual.
+- **skill-114-lazy-loading-e-virtual-scrolling** — Lazy Loading e Virtual Scrolling - Renderizar apenas o que está visível na tela para performance.
+- **skill-115-drag-and-drop** — Drag and Drop - Implementar arrastar e soltar sem dor de cabeça.
+- **skill-116-infinite-scroll-vs-pagination** — Infinite Scroll vs Pagination - Escolher a estratégia certa para carregar listas longas.
+- **skill-117-search-com-debounce-e-highlight** — Search com Debounce e Highlight - Busca performática com feedback visual em tempo real.
+- **skill-118-toast-e-notificacoes** — Toast e Notificações - Notificações não intrusivas para feedback de ações.
+- **skill-119-modais-e-dialogos-acessiveis** — Modais e Diálogos Acessíveis - Modais que funcionam para todos, incluindo leitores de tela e teclado.
+- **skill-11-zero-dependencia-desnecessaria** — Zero Dependência Desnecessária - Evitar instalar bibliotecas para coisas que a linguagem ou framework já resolve nativamente.
+- **skill-120-tooltip-e-popover** — Tooltip e Popover - Informação contextual que aparece ao hover/foco sem atrapalhar.
+- **skill-121-game-loop-e-request-animation-frame** — Game Loop e requestAnimationFrame - Criar o loop principal de um jogo no navegador.
+- **skill-122-canvas-api-basica** — Canvas API Básica - Desenhar gráficos 2D no navegador com a Canvas API.
+- **skill-123-physics-engine-mundo-2d** — "Physics Engine (Mundo 2D) - Simular física básica em jogos 2D: gravidade, colisão, movimento."
+- **skill-124-colisao-e-hitbox** — Colisão e Hitbox - Detectar quando objetos do jogo se tocam com precisão.
+- **skill-125-sprites-e-animacao-de-sprites** — Sprites e Animação de Sprites - Animar personagens e objetos usando sprite sheets.
+- **skill-126-audio-em-jogos** — Áudio em Jogos - Tocar sons e música em jogos no navegador.
+- **skill-127-input-handling-teclado-mouse-toque** — Input Handling (Teclado, Mouse, Toque) - Capturar input do usuário de forma consistente em qualquer dispositivo.
+- **skill-128-pontuacao-e-fases** — Pontuação e Fases - Sistema de pontuação, progressão e níveis.
+- **skill-129-game-state-management** — Game State Management - Gerenciar diferentes telas do jogo (menu, jogo, pause, game over).
+- **skill-12-owasp-top-10-por-feature** — OWASP Top 10 por Feature - Verificar cada nova feature contra as 10 principais vulnerabilidades OWASP antes de considerar pronta.
+- **skill-130-save-load-progresso** — Save/Load Progresso - Salvar e carregar o progresso do jogador entre sessões.
+- **skill-131-mobile-touch-controls** — Mobile Touch Controls - Controles touch para jogos em dispositivos móveis.
+- **skill-132-particle-effects** — Particle Effects - Criar efeitos visuais com partículas (explosões, fumaça, estrelas).
+- **skill-133-tiled-maps-e-niveis** — Tiled Maps e Níveis - Criar mapas baseados em tiles para jogos 2D.
+- **skill-134-performance-em-jogos** — Performance em Jogos - Manter 60 FPS mesmo com muitos objetos na tela.
+- **skill-135-multiplayer-basico-websocket** — Multiplayer Básico (WebSocket) - Criar jogo multiplayer em tempo real com WebSocket.
+- **skill-136-readme-profissional** — README Profissional - README que explica o projeto claramente para qualquer desenvolvedor.
+- **skill-137-licenciamento-de-software** — Licenciamento de Software - Escolher a licença correta para o projeto.
+- **skill-138-termos-de-servico-e-privacidade** — Termos de Serviço e Privacidade - Documentos legais obrigatórios para qualquer SaaS.
+- **skill-139-lgpd-gdpr-compliance** — LGPD/GDPR Compliance - Estar em conformidade com leis de proteção de dados.
+- **skill-13-paleta-restrita-com-intencao** — Paleta Restrita com Intenção - Usar no máximo 3 cores com propósito semântico definido, evitando arco-íris de acentos sem função.
+- **skill-140-monetizacao-stripe-pix-assinaturas** — Monetização (Stripe, Pix, Assinaturas) - Cobrar clientes de forma segura com Stripe.
+- **skill-141-email-marketing-e-transacional** — Email Marketing e Transacional - Enviar emails transacionais (boas-vindas, recuperação) e marketing (newsletter).
+- **skill-142-analytics-vercel-plausible** — Analytics (Vercel Analytics, Plausible) - Entender o comportamento do usuário no site.
+- **skill-143-error-tracking-sentry** — Error Tracking (Sentry) - Saber de todos os erros em produção antes do usuário reclamar.
+- **skill-144-feature-planning-mvp-vs-v2** — Feature Planning (MVP vs V2) - Priorizar features para lançar rápido sem entregar produto incompleto.
+- **skill-145-user-feedback-e-surveys** — User Feedback e Surveys - Coletar feedback dos usuários para guiar o desenvolvimento.
+- **skill-146-changelog-e-release-notes** — Changelog e Release Notes - Comunicar mudanças para usuários de forma clara.
+- **skill-147-onboarding-para-novos-usuarios** — Onboarding para Novos Usuários - Guiar o usuário desde o cadastro até o primeiro valor.
+- **skill-148-importacao-e-exportacao-de-dados** — Importação e Exportação de Dados - Permitir importar/exportar dados para integração com outras ferramentas.
+- **skill-149-moderacao-de-conteudo** — Moderação de Conteúdo - Moderar conteúdo gerado por usuários sem sobrecarregar a equipe.
+- **skill-14-resumo-sessao-comprimido** — Resumo de Sessão Comprimido - Ao retomar uma conversa, enviar um resumo comprimido em vez do histórico completo, reduzindo drasticamente o consumo de tokens.
+- **skill-150-admin-dashboard** — Admin Dashboard - Painel administrativo para gerenciar o negócio.
+- **skill-151-paginacao-de-api** — Paginação de API - Retornar listas paginadas da API de forma consistente.
+- **skill-152-prompt-engineering-avancado** — Prompt Engineering Avançado - Extrair o máximo do Claude com prompts precisos e estruturados.
+- **skill-153-context-window-management** — Context Window Management - Gerenciar a janela de contexto para não perder qualidade nas respostas.
+- **skill-154-iterative-development-com-ia** — Iterative Development com IA - Desenvolver em ciclos curtos com IA, revisando e refinando a cada iteração.
+- **skill-155-refactoring-assistido** — Refactoring Assistido - Refatorar código existente com ajuda da IA sem quebrar funcionalidade.
+- **skill-156-code-review-com-ia** — Code Review com IA - Usar IA para revisar código antes de merge.
+- **skill-157-migracao-de-codigo-legado-com-ia** — Migração de Código Legado com IA - Migrar de tecnologia/framework com ajuda da IA de forma segura.
+- **skill-158-geracao-de-testes-com-ia** — Geração de Testes com IA - Gerar testes unitários e de integração automaticamente.
+- **skill-159-documentacao-gerada-com-ia** — Documentação Gerada com IA - Manter documentação atualizada sem esforço manual.
+- **skill-15-tipografia-com-personalidade** — Tipografia com Personalidade - Escolher fontes que refletem o domínio do produto, não as defaults do Tailwind ou system-ui genérico.
+- **skill-160-debug-com-ia** — Debug com IA - Usar IA para encontrar bugs mais rápido que lendo código manualmente.
+- **skill-161-performance-profiling-com-ia** — Performance Profiling com IA - Identificar gargalos de performance usando IA para análise.
+- **skill-162-seguranca-assistida-por-ia** — Segurança Assistida por IA - Usar IA para encontrar vulnerabilidades de segurança no código.
+- **skill-163-design-to-code-figma-react** — Design to Code (Figma → React) - Converter designs do Figma em código React/Tailwind.
+- **skill-164-natural-language-to-sql** — Natural Language to SQL - Gerar queries SQL a partir de linguagem natural.
+- **skill-165-natural-language-to-api** — Natural Language to API - Gerar endpoints de API a partir de descrição em linguagem natural.
+- **skill-166-natural-language-to-component** — Natural Language to Component - Gerar componentes React completos a partir de descrição.
+- **skill-167-ai-pair-programming-workflow** — AI Pair Programming Workflow - Workflow produtivo entre humano e IA no desenvolvimento.
+- **skill-168-prompt-templates-for-common-tasks** — Prompt Templates for Common Tasks - Templates de prompts reutilizáveis para tarefas comuns.
+- **skill-169-error-resolution-with-ai** — Error Resolution with AI - Resolver erros de compilação, runtime e TypeScript rapidamente.
+- **skill-16-edge-cases-explicitos** — Edge Cases Explícitos - Forçar o assistant a listar e tratar casos extremos antes de implementar, evitando bugs em produção.
+- **skill-170-architecture-planning-with-ai** — Architecture Planning with AI - Planejar arquitetura de software com ajuda da IA.
+- **skill-171-kubernetes-basico** — Kubernetes Básico - Orquestrar containers em produção com Kubernetes.
+- **skill-172-terraform-para-infra** — Terraform para Infra - Infraestrutura como código com Terraform.
+- **skill-173-database-replication** — Database Replication - Separar leitura e escrita do banco para performance.
+- **skill-174-cdn-e-edge-computing** — CDN e Edge Computing - Entregar conteúdo mais perto do usuário para reduzir latência.
+- **skill-175-serverless-database** — Serverless Database - Banco de dados que escala automaticamente sem gerenciar servidor.
+- **skill-176-email-service-resend-sendgrid** — Email Service (Resend, SendGrid) - Serviço de email confiável para transacionais e marketing.
+- **skill-177-file-storage-s3-r2-supabase** — File Storage (S3, R2, Supabase) - Armazenar arquivos de usuários com segurança e performance.
+- **skill-178-search-engine-algolia-meilisearch** — Search Engine (Algolia, Meilisearch) - Busca rápida e relevante em grandes conjuntos de dados.
+- **skill-179-ai-ml-integration-openai** — AI/ML Integration (OpenAI API) - Integrar capacidades de IA no produto usando APIs de terceiros.
+- **skill-17-xss-sanitizacao-output** — XSS e Sanitização de Output - Garantir que nenhum conteúdo do usuário seja renderizado sem sanitização, prevenindo Cross-Site Scripting (XSS).
+- **skill-180-cron-jobs-e-agendamento** — Cron Jobs e Agendamento - Executar tarefas em horários específicos sem intervenção manual.
+- **skill-181-rate-limiting-avancado-distribuido** — Rate Limiting Avançado (Distribuído) - Rate limit que funciona em múltiplas instâncias usando Redis.
+- **skill-182-api-gateway** — API Gateway - Ponto único de entrada para todas as APIs com segurança e roteamento.
+- **skill-183-web-scraping** — Web Scraping - Extrair dados de sites que não têm API pública.
+- **skill-184-vibecoding-manifesto** — "Vibe Coding Manifesto - Filosofia e práticas do Vibe Coding: desenvolver com IA de forma produtiva."
+- **skill-185-social-login-google-github** — Social Login (Google, GitHub) - Login com provedores sociais de forma segura.
+- **skill-186-pagina-de-pricing-eficaz** — Página de Pricing Eficaz - Página de preços que converte visitantes em clientes.
+- **skill-187-api-rest-vs-graphql** — API REST vs GraphQL - Escolher entre REST e GraphQL para cada caso.
+- **skill-188-responsive-emails** — Responsive Emails - Emails que funcionam em qualquer cliente de email (Outlook, Gmail, Apple Mail).
+- **skill-189-exportacao-relatorios-csv-pdf** — Exportação de Relatórios (CSV, PDF) - Gerar e baixar relatórios em formatos padrão.
+- **skill-18-modo-diff-only** — Modo Diff Only - Receber apenas as linhas alteradas, não o arquivo completo, ao fazer modificações em código existente.
+- **skill-190-expirar-trial-e-cobrar-usuario** — Expirar Trial e Cobrar Usuário - Gerenciar trial grátis e converter para pagamento.
+- **skill-191-full-text-search-no-postgres** — Full-Text Search no PostgreSQL - Busca textual eficiente sem precisar de Elasticsearch/Meilisearch.
+- **skill-192-gamificacao-badges-e-niveis** — Gamificação (Badges e Níveis) - Aumentar engajamento com elementos de jogo.
+- **skill-193-testes-e2e-com-playwright** — Testes E2E com Playwright - Testar fluxos completos do usuário no navegador.
+- **skill-194-supabase-realtime-e-presenca** — Supabase Realtime e Presença - Funcionalidades em tempo real usando Supabase Realtime.
+- **skill-195-reconhecimento-de-imagem-com-ia** — Reconhecimento de Imagem com IA - Extrair informações de imagens usando APIs de IA.
+- **skill-196-graphql-api-com-nextjs** — GraphQL API com Next.js - Adicionar GraphQL ao Next.js App Router.
+- **skill-197-formatacao-de-dinheiro-e-datas** — Formatação de Dinheiro e Datas - Formatar moeda e data consistentemente em toda aplicação.
+- **skill-198-redirects-e-rewrites-no-nextjs** — Redirects e Rewrites no Next.js - Gerenciar redirecionamentos e rotas sem perder SEO.
+- **skill-199-integridade-de-dados-e-consistencia** — Integridade de Dados e Consistência - Garantir que dados não sejam corrompidos em operações complexas.
+- **skill-19-arquitetura-pastas-por-dominio** — Arquitetura de Pastas por Domínio - Evitar estrutura genérica `components/pages/utils` e adotar organização por feature/domínio.
+- **skill-200-checklist-final-de-producao** — Checklist Final de Produção - Checklist completo antes de lançar qualquer projeto em produção.
+- **skill-201-sistema-cookies-lgpd** — Sistema de Cookies e LGPD Completo - Banner de cookies compliant com LGPD e GDPR, com gestão de consentimento.
+- **skill-202-seo-primeiro-google** — "SEO Avançado: Ser o Primeiro no Google - Rankear #1 no Google para palavras-chave específicas (ex: \"despachante\")."
+- **skill-203-design-unico-nao-generico** — "Design Único: Fugir do Genérico - Criar sites que não parecem template pronto ou feito por IA."
+- **skill-204-hero-video-animado** — Hero com Vídeo Animado - Hero section com vídeo de fundo que prende a atenção.
+- **skill-205-hero-full-screen** — Hero Full-Screen (100% da Tela) - Hero section que ocupa exatamente 100% da viewport, sem scroll.
+- **skill-206-remover-cara-de-ia** — Remover "Cara de IA" do Site - Fazer o site parecer feito por humano, não por IA.
+- **skill-207-design-bonito-refinado** — Design Bonito e Refinado - Elevar o visual do site de "funcional" para "deslumbrante".
+- **skill-208-seo-local-regiao** — "SEO Local: Aparecer na Sua Região - Rankear #1 para buscas como \"despachante em [cidade]\" ou \"despachante perto de mim\"."
+- **skill-209-micro-interacoes-animacoes** — Micro-Interações e Animações com Propósito - Pequenas animações que encantam e melhoram a experiência.
+- **skill-20-csrf-headers-seguranca** — CSRF e Headers de Segurança - Verificar proteção CSRF e headers HTTP em todas as rotas que mutam estado.
+- **skill-210-performance-otimizada-seo** — Performance Otimizada para SEO - Core Web Vitals perfeitos para rankear melhor no Google.
+- **skill-211-rich-text-editor** — Rich Text Editor (TipTap) - Editor de texto rico tipo Word, direto no navegador.
+- **skill-212-dashboard-graficos** — Dashboard com Gráficos (Recharts) - Gráficos bonitos e responsivos para analytics.
+- **skill-213-notificacoes-inapp-push** — Notificações In-App, Push e Email - Sistema unificado de notificações para o usuário.
+- **skill-214-upload-arquivos-preview** — Upload de Arquivos com Preview - Upload de imagens/documentos com preview antes de enviar.
+- **skill-215-kanban-board** — Quadro Kanban (Drag and Drop) - Board estilo Trello para gerenciar tarefas.
+- **skill-216-calendario-agendamento** — Calendário e Agendamento - Sistema de agendamento com calendário interativo.
+- **skill-217-formularios-multi-etapas** — Formulários Multi-Etapas (Wizard) - Formulários longos divididos em etapas com progresso.
+- **skill-218-activity-feed-timeline** — Activity Feed / Timeline - Feed de atividades estilo Facebook/Instagram para o app.
+- **skill-219-painel-administrativo** — Painel Administrativo (Admin) - Painel admin seguro para gerenciar o sistema.
+- **skill-21-nomenclatura-arquivos-consistente** — Nomenclatura de Arquivos Consistente - Padronizar a nomenclatura de arquivos por tipo antes de criar qualquer coisa, evitando mistura de padrões.
+- **skill-220-versionamento-api** — Versionamento de API - Manter compatibilidade quando a API muda.
+- **skill-221-multi-tenant-workspaces** — Multi-Tenant / Workspaces - Vários times/empresas no mesmo app com dados isolados.
+- **skill-222-comentarios-likes** — Sistema de Comentários e Likes - Comentários aninhados, likes e interação social.
+- **skill-223-tabelas-responsivas** — Tabelas de Dados Responsivas - Tabelas que funcionam em qualquer tamanho de tela.
+- **skill-224-navegacao-mobile** — Navegação Mobile - Nav que funciona perfeitamente em telas pequenas.
+- **skill-225-swipe-touch-gestures** — Swipe e Touch Gestures - Interações por toque (swipe, pinch, tap) no mobile.
+- **skill-226-empty-states-404** — Estados Vazios e Páginas 404 - Transformar "sem dados" e "página não encontrada" em boa experiência.
+- **skill-227-geracao-pdf** — Geração de PDF - Gerar PDFs (notas, relatórios, faturas) com Puppeteer.
+- **skill-228-csv-excel-import-export** — Importação e Exportação CSV/Excel - Importar dados de planilhas e exportar relatórios.
+- **skill-229-pwa-offline** — Modo Offline e PWA Avançado - App funcionar offline (parcial ou totalmente).
+- **skill-22-prompt-em-camadas** — Prompt em Camadas - Dividir tarefas grandes em prompts menores e encadeados para gastar menos tokens por resposta e obter mais precisão.
+- **skill-230-dark-mode** — Modo Dark com Persistência - Dark mode que lembra a preferência do usuário.
+- **skill-231-internacionalizacao-i18n** — Internacionalização (i18n) - Site em múltiplos idiomas.
+- **skill-232-tour-onboarding** — Tour / Onboarding Interativo - Guiar novos usuários pelas funcionalidades do app.
+- **skill-233-bulk-actions** — Ações em Massa (Bulk Actions) - Selecionar múltiplos itens e agir sobre eles.
+- **skill-234-busca-filtros-avancados** — Busca com Filtros Avançados - Busca combinada com múltiplos filtros (categoria, preço, data, etc).
+- **skill-235-customizacao-tema-cores** — Customização de Tema (cores) - Usuário personalizar cores do próprio perfil/tenant.
+- **skill-236-webrtc-video-voz** — "WebRTC: Video e Voz - Chamadas de vídeo/voz no navegador."
+- **skill-237-colaboracao-tempo-real** — Colaboração em Tempo Real - Múltiplos usuários editando o mesmo documento simultaneamente.
+- **skill-238-cron-jobs** — Cron Jobs e Tarefas Agendadas - Executar tarefas automáticas em horários específicos.
+- **skill-239-arquivamento-purga** — Arquivamento e Purga de Dados - Manter banco leve movendo dados antigos para archive.
+- **skill-23-autenticacao-vs-autorizacao** — Autenticação vs Autorização - Garantir que toda rota protegida verifica identidade (authn) E permissão (authz) como duas camadas separadas.
+- **skill-240-audit-log** — Trilha de Auditoria (Audit Log) - Registrar quem fez o que e quando no sistema.
+- **skill-241-dominios-customizados** — Domínios Customizados (SaaS) - Cada cliente usar seu próprio domínio no seu SaaS.
+- **skill-242-white-label** — White-Label (Marca do Cliente) - Sistema que usa a marca do cliente (logo, cores, domínio).
+- **skill-243-api-playground-swagger** — API Playground (Swagger/OpenAPI) - Documentação interativa da API para desenvolvedores.
+- **skill-244-storybook-component-library** — Component Library com Storybook - Catálogo de componentes visuais para desenvolvimento consistente.
+- **skill-245-estilos-impressao** — Estilos para Impressão (Print) - Páginas que imprimam bem (notas fiscais, relatórios, recibos).
+- **skill-246-atalhos-teclado** — Atalhos de Teclado (Keyboard Shortcuts) - Navegação rápida por teclado para usuários avançados.
+- **skill-247-dados-hierarquicos-tree** — Dados Hierárquicos (Tree View) - Exibir dados com hierarquia (categorias, organograma, comentários).
+- **skill-248-provedor-oauth** — Provedor OAuth (Login com seu site) - Seu app servir como provedor OAuth para outros apps.
+- **skill-249-migracoes-erd** — Migrações e Diagramas ERD - Gerenciar esquema do banco com migrações seguras.
+- **skill-24-layout-com-intencao-espacial** — Layout com Intenção Espacial - Usar espaçamento e grid como ferramenta de hierarquia visual, não como preenchimento genérico.
+- **skill-250-catalogo-completo** — Catalogo Completo de Todas as Skills - Índice navegável de todas as 250 skills.
+- **skill-251-whatsapp-api** — WhatsApp Business API - Enviar mensagens automáticas de WhatsApp do seu sistema.
+- **skill-252-pix-mercado-pago** — Pagamento Pix (Mercado Pago) - Receber pagamentos via Pix no Brasil.
+- **skill-253-chat-1on1** — Chat 1-on-1 (Mensagens) - Conversa direta entre usuário e suporte.
+- **skill-254-ai-chatbot** — AI Chatbot (Suporte Automático) - Chatbot que responde dúvidas usando IA (GPT).
+- **skill-255-form-builder** — Construtor de Formulários (Form Builder) - Usuário montar seus próprios formulários sem código.
+- **skill-256-geolocalizacao-mapas** — Geolocalização e Mapas - Mostrar mapas, endereços e localização do usuário.
+- **skill-257-qrcode** — QR Code Generator e Scanner - Gerar e escanear QR codes para pagamentos, links, etc.
+- **skill-258-load-testing-k6** — Load Testing com k6 - Testar quantos usuários seu site aguenta antes de lançar.
+- **skill-259-monitoramento-api-banco** — Monitoramento de API e Banco - Saber se API e banco estão saudáveis em tempo real.
+- **skill-25-teste-antes-de-implementar** — Teste Antes de Implementar - Escrever o teste da função antes do código (TDD assistido por IA), garantindo que a implementação atenda aos casos esperados.
+- **skill-260-backup-automatizado** — Backup Automatizado - Backup automático do banco e arquivos sem perder dados.
+- **skill-261-logs-centralizados** — Logs Centralizados - Todos os logs do sistema em um lugar só para debug.
+- **skill-262-impersonation-admin** — User Impersonation (Admin) - Admin se passar por usuário para debug/suporte.
+- **skill-263-webhook-receiver** — Webhook Receiver Universal - Receber webhooks de qualquer serviço (Stripe, Mercado Pago, GitHub, etc).
+- **skill-264-link-preview-og** — Preview de Link (Open Graph Dinâmico) - Quando alguém compartilha seu link, mostrar preview bonito.
+- **skill-265-documentos-legais** — Geração de Documentos Legais (Termos, Privacidade) - Gerar termos de serviço e política de privacidade automaticamente.
+- **skill-266-design-tokens** — Design Tokens Automatizados - Gerar temas de cores, tipografia e spacing automaticamente.
+- **skill-267-ab-testing** — A/B Testing Engine - Testar duas versões de uma página e ver qual converte mais.
+- **skill-268-deteccao-n1-slow-query** — Detecção de Performance (N+1, Queries Lentas) - Identificar queries N+1 e lentas antes de ir para produção.
+- **skill-269-self-healing** — Self-Healing e Auto-Recovery - Sistema que detecta e se recupera de problemas sozinho.
+- **skill-26-rate-limiting-throttling** — Rate Limiting e Throttling - Proteger endpoints públicos contra abuso, força bruta e DoS parcial.
+- **skill-270-feature-audit** — Feature Audit e Rastreamento de Uso - Saber quais features são mais usadas e quais podem ser removidas.
+- **skill-271-cache-estrategias** — Estratégias de Cache (Redis, CDN, Browser) - Cache em múltiplas camadas para performance máxima.
+- **skill-272-redes-sociais** — Integração com Redes Sociais - Compartilhar conteúdo e conectar com redes sociais.
+- **skill-273-error-handling-global** — Gerenciamento de Erros Global - Capturar e tratar erros em todo o sistema sem crashar.
+- **skill-274-transicoes-pagina** — Animações de Transição de Página - Transições suaves ao navegar entre páginas.
+- **skill-275-seo-tecnico-sitemap** — "SEO Técnico: Sitemap, Robots, hreflang - Arquivos técnicos que o Google usa para indexar seu site."
+- **skill-276-versionamento-semantico-changelog** — Versionamento Semântico e Changelog Automático - Versionar seu software profissionalmente (semver).
+- **skill-277-monitoramento-custos-cloud** — Monitoramento de Custos em Cloud - Não ter surpresa na conta do fim do mês.
+- **skill-278-scroll-infinito-vs-paginacao** — Scroll Infinito vs Paginação - Escolher a melhor estratégia de carregamento de listas.
+- **skill-279-imagens-responsivas-art-direction** — Imagens Responsivas e Art Direction - Imagens que carregam rápido em qualquer tela.
+- **skill-27-comentario-so-onde-agrega** — Comentário Só Onde Agrega - Eliminar comentários que explicam o óbvio e manter apenas os que explicam o **porquê** da decisão.
+- **skill-280-encerramento-meta-aprendizado** — "Encerramento: Meta-Aprendizado e Checklist Vibe Coder - Saber quando você está pronto para lançar e como continuar aprendendo."
+- **skill-28-variaveis-de-ambiente-tipadas** — Variáveis de Ambiente Tipadas - Validar todas as variáveis de ambiente no boot da aplicação com tipagem forte, falhando rápido se algo faltar.
+- **skill-29-resposta-em-formato-estruturado** — Resposta em Formato Estruturado - Pedir respostas em formato fixo e previsível para processar ou reutilizar mais facilmente, economizando tokens.
+- **skill-30-motion-com-proposito** — "Motion com Propósito - Usar animação só quando ela comunica algo funcional: estado, direção, feedback. Eliminar motion puramente decorativo."
+- **skill-31-dependencias-auditadas** — Dependências Auditadas - Verificar vulnerabilidades conhecidas e saúde da dependência antes de instalar ou ao fazer review.
+- **skill-32-revisao-de-acessibilidade** — Revisão de Acessibilidade - Garantir que todo componente de UI seja acessível por padrão, sem necessidade de retrofit.
+- **skill-33-gerenciamento-de-estado-minimo** — Gerenciamento de Estado Mínimo - Evitar estado global desnecessário usando a fonte de verdade mais adequada para cada dado.
+- **skill-34-logging-estruturado-sem-dados-sensiveis** — Logging Estruturado sem Dados Sensíveis - Garantir que logs não exponham passwords, tokens, dados pessoais ou segredos.
+- **skill-35-nomenclatura-rotas-restful** — Nomenclatura de Rotas RESTful - Padronizar endpoints seguindo convenções REST antes de implementar qualquer rota.
+- **skill-36-cache-com-invalidacao-explicita** — Cache com Invalidação Explícita - Toda estratégia de cache deve ter política de invalidação definida antes de ser implementada.
+- **skill-37-migrations-reversiveis** — Migrations Reversíveis - Garantir que toda migration de banco tenha rollback seguro definido antes de aplicar.
+- **skill-38-prop-drilling-vs-composicao** — Prop Drilling vs Composição - Evitar passar props por 3+ níveis sem uso intermediário, refatorando com composição ou contexto.
+- **skill-39-mensagem-de-erro-orientada-a-acao** — Mensagem de Erro Orientada à Ação - Toda mensagem de erro deve dizer o que aconteceu E o que o usuário pode fazer.
+- **skill-40-scanning-de-secrets-no-codigo** — Scanning de Secrets no Código - Detectar API keys, tokens, senhas e credenciais commitadas no código antes que vazem.
+- **skill-41-tipagem-de-retorno-de-funcoes** — Tipagem de Retorno de Funções - Garantir que toda função tenha tipo de retorno explícito no TypeScript, eliminando `any` implícito.
+- **skill-42-design-mobile-first-real** — Design Mobile-First Real - Começar o layout pelo menor viewport (375px) e expandir com breakpoints, nunca o contrário.
+- **skill-43-auditoria-de-performance-por-componente** — Auditoria de Performance por Componente - Identificar re-renders desnecessários, operações custosas e oportunidades de otimização.
+- **skill-44-contrato-de-api-antes-do-codigo** — Contrato de API Antes do Código - Definir o contrato (request, response, erros) de toda API antes de implementar o endpoint.
+- **skill-45-dependencia-circular-proibida** — Dependência Circular Proibida - Detectar e eliminar imports circulares que causam bugs, undefined em runtime e dificuldade de manutenção.
+- **skill-46-dark-mode-semantico** — Dark Mode Semântico - Implementar dark mode com variáveis CSS semânticas, não invertendo cores manualmente em cada componente.
+- **skill-47-graceful-degradation-de-features** — Graceful Degradation de Features - Garantir que toda feature funcione de forma degradada mesmo quando dependências externas falham, sem quebrar silenciosamente.
+- **skill-48-input-validation-server-side** — Input Validation Server-Side Sempre - Nunca confiar em validação do client — sempre revalidar no servidor como camada de segurança.
+- **skill-49-dead-code-detection** — Dead Code Detection - Identificar e remover código morto que polui o codebase, aumenta bundle e dificulta manutenção.
+- **skill-50-atomic-commits-semanticos** — Atomic Commits Semânticos - Cada commit tem responsabilidade única e mensagem que descreve o impacto no produto.
+- **skill-51-boundary-de-erro-por-modulo** — Boundary de Erro por Módulo - Isolar falhas para que um módulo ou seção quebrada não derrube a aplicação inteira.
+- **skill-52-documentacao-de-decisao-arquitetural** — Documentação de Decisão Arquitetural - Registrar o porquê de decisões técnicas importantes para referência futura da equipe.
+- **skill-53-skeleton-e-estados-de-loading** — Skeleton e Estados de Loading - Todo conteúdo assíncrono deve ter estado de loading que mantenha o layout, evitando layout shift (CLS).
+- **skill-54-estados-loading-empty-error-success** — "Estados Loading, Empty, Error, Success (LEES) - Todo componente que carrega dados deve tratar os 4 estados: loading, empty, error, success."
+- **skill-55-estrategia-de-testes** — Estratégia de Testes (E2E/Integração/Unit) - Saber o que testar em cada camada, sem desperdiçar tempo em testes que não agregam.
+- **skill-56-formularios-validacao-reativa** — Formulários com Validação Reativa - Implementar formulários com validação em tempo real, feedback instantâneo e tipos inferidos do schema.
+- **skill-57-core-web-vitals** — "Core Web Vitals - Garantir que o projeto atinja boas pontuações nas métricas do Google: LCP, CLS, INP, FID."
+- **skill-58-git-workflow-branches-prs** — "Git Workflow: Branches e PRs - Padronizar branches, commits e pull requests para colaboração limpa."
+- **skill-59-observabilidade-logs-metrics-tracing** — Observabilidade (Logs, Metrics, Tracing) - Saber exatamente o que está acontecendo na aplicação em produção sem precisar reproduzir bugs.
+- **skill-60-bundle-analysis-code-splitting** — Bundle Analysis e Code-Splitting - Manter o bundle JavaScript pequeno para carregamento rápido.
+- **skill-61-internacionalizacao-i18n** — Internacionalização (i18n) - Preparar o projeto para múltiplos idiomas desde o início.
+- **skill-62-design-de-banco-indices-queries** — Design de Banco (Índices, Queries, Migrations) - Modelar banco de dados que performa bem desde o início.
+- **skill-63-autenticacao-oauth-sso** — Autenticação com OAuth/SSO - Implementar login social (Google, GitHub) com segurança e fallback para email/senha.
+- **skill-64-websocket-e-tempo-real** — WebSocket e Tempo Real - Implementar funcionalidades em tempo real (chat, notificações, colaboração).
+- **skill-65-feature-flags** — Feature Flags - Ligar/desligar funcionalidades sem deploy, permitindo rollout gradual e testes A/B.
+- **skill-66-form-handling-avancado** — "Form Handling Avançado (Arrays, Aninhados, Wizard) - Implementar formulários complexos: listas dinâmicas, valores aninhados e multi-etapas."
+- **skill-67-design-system-tokens-componentes-base** — "Design System: Tokens e Componentes Base - Criar um design system consistente com tokens de design e componentes fundamentais."
+- **skill-68-ci-cd-pipeline** — CI/CD Pipeline - Automatizar lint, testes e deploy para cada push no repositório.
+- **skill-69-seguranca-em-upload-de-arquivos** — Segurança em Upload de Arquivos - Permitir upload de arquivos sem expor o servidor a ataques.
+- **skill-70-jwt-refresh-token-rotacao-blacklist** — "JWT: Refresh Token, Rotação, Blacklist - Implementar autenticação JWT segura com renovação de tokens sem expor o usuário."
+- **skill-71-cors-hardenizado** — CORS Hardenizado - Configurar CORS no mínimo necessário, sem permissões coringa.
+- **skill-72-protecao-contra-scraping-e-bots** — Proteção Contra Scraping e Bots - Impedir que bots automatizados raspem dados ou criem contas em massa.
+- **skill-73-criptografia-de-dados-sensiveis** — Criptografia de Dados Sensíveis em Repouso - Proteger dados pessoais armazenados no banco mesmo em caso de vazamento.
+- **skill-74-seguranca-em-webhooks** — Segurança em Webhooks - Receber webhooks de serviços externos (Stripe, GitHub, ERP) sem risco de execução maliciosa.
+- **skill-75-principio-do-menor-privilegio-rbac** — Princípio do Menor Privilégio (RBAC) - Cada usuário tem apenas as permissões necessárias para sua função, nada mais.
+- **skill-76-protecao-contra-idor** — Proteção Contra IDOR - Impedir que usuário acesse recursos de outros usuários manipulando IDs na URL.
+- **skill-77-seguranca-em-apis-third-party** — Segurança em APIs Third-Party - Consumir APIs externas sem expor seu sistema a riscos.
+- **skill-78-blindagem-ambiente-dev-vs-prod** — Blindagem de Ambiente Dev vs Prod - Garantir que dados e configurações de desenvolvimento nunca vazem para produção.
+- **skill-79-seguranca-server-components-nextjs** — Segurança em Server Components (Next.js) - Usar Server Components do Next.js sem vazar dados sensíveis para o client.
+- **skill-80-auditoria-de-logs-quem-fez-o-que** — Auditoria de Logs (Quem Fez o Quê?) - Registrar todas as ações sensíveis com rastreabilidade para auditoria.
+- **skill-81-configuracao-de-vps-linux-basico** — Configuração de VPS (Linux Básico) - Preparar um servidor Linux para rodar aplicações em produção.
+- **skill-82-docker-para-desenvolvimento** — Docker para Desenvolvimento - Usar Docker para ambientes consistentes de desenvolvimento.
+- **skill-83-deploy-automatizado** — Deploy Automatizado - Publicar aplicação com um comando, sem passos manuais.
+- **skill-84-dominio-e-dns** — Domínio e DNS - Configurar domínio personalizado para a aplicação.
+- **skill-85-ssl-tls-lets-encrypt** — SSL/TLS com Let's Encrypt - HTTPS gratuito e automático com certificados Let's Encrypt.
+- **skill-86-banco-de-dados-em-producao** — Banco de Dados em Produção - Escolher e gerenciar banco de dados para produção.
+- **skill-87-backup-e-restore** — Backup e Restore - Proteger dados contra perda acidental ou corrupção.
+- **skill-88-monitoramento-de-uptime** — Monitoramento de Uptime - Saber imediatamente quando a aplicação ficar fora do ar.
+- **skill-89-escalabilidade-basica** — Escalabilidade Básica - Preparar a aplicação para crescer sem reescrever tudo.
+- **skill-90-variaveis-de-ambiente-em-producao** — Variáveis de Ambiente em Produção - Gerenciar secrets de produção sem expô-los.
+- **skill-91-cicd-github-actions** — "CI/CD com GitHub Actions - Pipeline completa: lint → test → build → deploy automático."
+- **skill-92-container-registry** — Container Registry - Armazenar e versionar imagens Docker para deploy consistente.
+- **skill-93-logs-em-producao** — Logs em Produção - Coletar, centralizar e consultar logs de produção.
+- **skill-94-ambiente-de-staging** — Ambiente de Staging - Ter um ambiente de pré-produção idêntico à produção para testar antes do deploy.
+- **skill-95-rollback-de-deploy** — Rollback de Deploy - Reverter para versão anterior rapidamente se algo der errado.
+- **skill-96-modelagem-de-banco-relacional** — Modelagem de Banco Relacional - Modelar tabelas de banco relacional corretamente desde o início.
+- **skill-97-indices-e-performance-de-queries** — Índices e Performance de Queries - Manter queries rápidas mesmo com milhões de registros.
+- **skill-98-sql-vs-nosql-quando-usar-cada** — "SQL vs NoSQL: Quando Usar Cada - Escolher o banco certo para cada tipo de dado."
+- **skill-99-webhooks** — Webhooks - Enviar e receber notificações HTTP entre sistemas.
