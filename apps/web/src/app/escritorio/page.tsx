@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Reveal from "@/components/motion/Reveal";
 import LogoMark from "@/components/brand/LogoMark";
 import { siteConfig } from "@/lib/config";
@@ -115,20 +114,6 @@ export default function EscritorioPage() {
           </div>
         </Reveal>
       </div>
-
-      <Reveal delay={100} className="mt-16">
-        <div className="overflow-hidden rounded-sm">
-          <Image
-            src="/images/estande-tiro.jpg"
-            alt="Atirador treinando em estande de tiro — o universo que a Advocac domina por dentro"
-            width={1080}
-            height={1350}
-            className="h-[380px] w-full object-cover object-top md:h-[400px] md:object-center"
-            sizes="(max-width: 768px) 100vw, 1100px"
-            loading="lazy"
-          />
-        </div>
-      </Reveal>
 
       <Reveal delay={150} className="mt-16">
         <div className="border-l-2 border-action bg-surface/30 p-6 md:p-8">
