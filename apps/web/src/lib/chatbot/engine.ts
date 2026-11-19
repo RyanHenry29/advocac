@@ -32,16 +32,16 @@ export function initialChips() {
   return [
     {
       label: "Meu CRAF está vencendo",
-      value: "Preciso renovar meu CRAF, ele está vencendo"
+      value: "Meu CRAF está vencendo, o que faço?"
     },
-    { label: "Recebi uma exigência", value: "Recebi uma exigência no meu processo" },
+    { label: "Recebi uma exigência", value: "Recebi uma exigência da Polícia Federal, o que fazer?" },
     {
       label: "Processo indeferido",
-      value: "Meu processo foi indeferido, quero recorrer"
+      value: "Meu processo de CRAF foi indeferido, tenho recurso?"
     },
     { label: "Documentação", value: "Quais documentos preciso apresentar?" },
-    { label: "Portal PF", value: "Como funciona o novo Portal da PF?" },
-    { label: "Falar com a equipe", primary: true, value: "Fale com a equipe" }
+    { label: "Portal PF", value: "Como funciona o novo Portal da Polícia Federal para CACs?" },
+    { label: "Falar com a equipe", primary: true, value: "Quero falar direto com a equipe" }
   ];
 }
 
@@ -151,7 +151,7 @@ export async function processMessage(
     };
   }
 
-  if (chipValue === "Fale com a equipe") {
+  if (chipValue === "Fale com a equipe" || chipValue === "Quero falar direto com a equipe") {
     return handoffResponse(ctx, topics);
   }
 

@@ -76,30 +76,24 @@ export function useChatEngine() {
 
   const boot = useCallback(() => {
     if (contextRef.current) {
-      setMessages([]);
-      setChips([]);
-      setHandoffUrl(null);
-      contextRef.current = null;
-      sessionStorage.removeItem(STORAGE_KEY);
+      return;
     }
 
-    if (messages.length === 0) {
-      setMessages([
-        {
-          who: "bot",
-          html: "Olá! Sou o atendimento da <strong>Advocac</strong>. Como posso te ajudar? Selecione um tema ou descreva sua situação."
-        }
-      ]);
-      setChips([
-        { label: "Meu CRAF está vencendo", value: "Meu CRAF está vencendo, o que faço?" },
-        { label: "Recebi uma exigência", value: "Recebi uma exigência da Polícia Federal, o que fazer?" },
-        { label: "Processo indeferido", value: "Meu processo de CRAF foi indeferido, tenho recurso?" },
-        { label: "Novo Portal PF", value: "Como funciona o novo Portal da Polícia Federal para CACs?" },
-        { label: "Habitualidade", value: "O que é habitualidade e como comprová-la?" },
-        { label: "Falar com a equipe", value: "Quero falar direto com a equipe", primary: true }
-      ]);
-    }
-  }, [messages.length]);
+    setMessages([
+      {
+        who: "bot",
+        html: "Olá! Sou o atendimento da <strong>Advocac</strong>. Como posso te ajudar? Selecione um tema ou descreva sua situação."
+      }
+    ]);
+    setChips([
+      { label: "Meu CRAF está vencendo", value: "Meu CRAF está vencendo, o que faço?" },
+      { label: "Recebi uma exigência", value: "Recebi uma exigência da Polícia Federal, o que fazer?" },
+      { label: "Processo indeferido", value: "Meu processo de CRAF foi indeferido, tenho recurso?" },
+      { label: "Novo Portal PF", value: "Como funciona o novo Portal da Polícia Federal para CACs?" },
+      { label: "Habitualidade", value: "O que é habitualidade e como comprová-la?" },
+      { label: "Falar com a equipe", value: "Quero falar direto com a equipe", primary: true }
+    ]);
+  }, []);
 
   const send = useCallback(
     async (text: string, chipValue?: string) => {
